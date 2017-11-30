@@ -19,12 +19,30 @@ Have a play feel free to open an issue if you spot something!
 
 1. A valid set of Twitter application API keys are required to use the local development server. A configuration script is included to retrieve a bearer token from Twitter given the consumer key and consumer secret, which it prompts for during post install (see below). This is only required if you want to start and use the app locally.
 
-## Installation
+## Getting Started
 
-1. Clone the repo `git clone https://github.com/ruswerner/tweetstack.git`
-1. Install dependencies `yarn` or `npm install`
+1. Clone the repo
+ 
+   `$ git clone https://github.com/ruswerner/tweetstack.git`
+   
+   `$ cd tweetstack`
+   
+1. Install dependencies 
 
-_NOTE:_ After the app is installed a configuration script will run and prompt for your Twitter API credentials. You can find these here [https://apps.twitter.com/](https://apps.twitter.com/). If you haven't created a Twitter app yet, you can CTRL-C out of the configuration script and re-run it later running `node configure.js`.
+   `$ yarn`
+   
+   `$ cd client && yarn && cd ..`
+
+   _NOTE:_ After the dependencies are installed a configuration script will run and prompt for your Twitter API credentials. You can find these here [https://apps.twitter.com/](https://apps.twitter.com/). If you haven't created a Twitter app yet, you can CTRL-C out of the configuration script and re-run it later running `node configure.js`.
+   
+1. Run the tests
+
+   `$ npm test`
+   
+1. Start the local server (opens your default browser automatically)
+
+   `$ npm start`
+
 
 ## Running the tests
 
