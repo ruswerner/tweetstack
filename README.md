@@ -1,5 +1,7 @@
 # Tweetstack
 
+![Tweetstack Screenshot](screenshot.jpg)
+
 Tweestack is a full-stack React/Redux/Nodejs app that lets you create a dashboard of Twitter searches. Each search is called a "stack" simply because as you add them, they stack up.
 
 The search queries are saved in the browser's local storage, so when you return to the app,
