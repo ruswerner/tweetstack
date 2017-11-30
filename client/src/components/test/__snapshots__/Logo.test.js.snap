@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logo renders the logo 1`] = `
+<button
+  disabled={false}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onMouseOut={[Function]}
+  onTouchStart={[Function]}
+  style={
+    Object {
+      "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
+      "background": "none",
+      "border": 10,
+      "boxSizing": "border-box",
+      "cursor": "pointer",
+      "display": "inline-block",
+      "fontFamily": "Roboto, sans-serif",
+      "fontSize": 0,
+      "fontWeight": "inherit",
+      "height": 48,
+      "margin": 0,
+      "muiPrepared": true,
+      "outline": "none",
+      "overflow": "visible",
+      "padding": 12,
+      "position": "relative",
+      "textDecoration": "none",
+      "transform": "rotate(180deg)",
+      "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+      "verticalAlign": null,
+      "width": 48,
+    }
+  }
+  tabIndex={0}
+  type="button"
+>
+  <svg
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      Object {
+        "color": "rgba(0, 0, 0, 0.87)",
+        "display": "inline-block",
+        "fill": "white",
+        "height": 24,
+        "muiPrepared": true,
+        "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+        "userSelect": "none",
+        "width": 24,
+      }
+    }
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M10 20h4V4h-4v16zm-6 0h4v-8H4v8zM16 9v11h4V9h-4z"
+    />
+  </svg>
+</button>
+`;
