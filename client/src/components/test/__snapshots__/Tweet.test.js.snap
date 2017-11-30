@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tweet should render 1`] = `
+<div>
+  <span
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onTouchEnd={[Function]}
+    onTouchStart={[Function]}
+    open={null}
+    style={
+      Object {
+        "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
+        "background": "none",
+        "backgroundColor": null,
+        "border": 10,
+        "boxSizing": "border-box",
+        "color": "rgba(0, 0, 0, 0.87)",
+        "cursor": "pointer",
+        "display": "block",
+        "fontFamily": "Roboto, sans-serif",
+        "fontSize": 16,
+        "fontWeight": "inherit",
+        "lineHeight": "16px",
+        "margin": 0,
+        "muiPrepared": true,
+        "outline": "none",
+        "padding": 0,
+        "position": "relative",
+        "textDecoration": "none",
+        "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+        "verticalAlign": null,
+      }
+    }
+    tabIndex={0}
+  >
+    <div
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchStart={[Function]}
+    >
+      <div
+        style={
+          Object {
+            "marginLeft": 0,
+            "muiPrepared": true,
+            "paddingBottom": 16,
+            "paddingLeft": 72,
+            "paddingRight": 56,
+            "paddingTop": 16,
+            "position": "relative",
+          }
+        }
+      >
+        <span
+          color="#757575"
+          style={
+            Object {
+              "display": "block",
+              "height": 24,
+              "margin": 12,
+              "position": "absolute",
+              "right": 4,
+              "top": 0,
+              "width": 24,
+            }
+          }
+        >
+          5 years ago
+        </span>
+        <img
+          className={undefined}
+          size={40}
+          src="http://_.com/img1.jpg"
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "rgb(188, 188, 188)",
+              "borderRadius": "50%",
+              "color": "#ffffff",
+              "display": "inline-flex",
+              "fontSize": 20,
+              "height": 40,
+              "justifyContent": "center",
+              "left": 16,
+              "muiPrepared": true,
+              "position": "absolute",
+              "top": 16,
+              "userSelect": "none",
+              "width": 40,
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "muiPrepared": true,
+            }
+          }
+        >
+          name1
+        </div>
+        <div
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "random text",
+            }
+          }
+          style={
+            Object {
+              "WebkitBoxOrient": "vertical",
+              "WebkitLineClamp": "unset",
+              "color": "rgba(0, 0, 0, 0.54)",
+              "display": "-webkit-box",
+              "fontSize": 14,
+              "height": "auto",
+              "lineHeight": "18px",
+              "margin": 0,
+              "marginTop": 4,
+              "muiPrepared": true,
+              "overflow": "hidden",
+              "textOverflow": "ellipsis",
+              "whiteSpace": null,
+            }
+          }
+        />
+      </div>
+    </div>
+  </span>
+</div>
+`;
