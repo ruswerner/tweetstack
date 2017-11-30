@@ -2,6 +2,10 @@ const prompt = require('prompt');
 const https = require('https');
 const fs = require('fs');
 
+if (process.env.NODE_ENV === 'production') {
+  process.exit();
+}
+
 prompt.message = '';
 prompt.delimiter = ' >';
 
